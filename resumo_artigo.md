@@ -75,7 +75,7 @@ A **segmentação** é definida como a divisão do conjunto **V** em **component
 
 - A constante **k** ajusta a granularidade da segmentação.
 - O algoritmo é eficiente com a ordenação inicial e a utilização de estruturas para manipular componentes (como Union-Find).
-- jA GERA A AGM SOZINHA PELO KRUSKALL.
+- Já garante uma AGM por seguir a lógica do Kruskall.
 
 
 ## Estruturas de Dados
