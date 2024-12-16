@@ -78,7 +78,3 @@ A **segmentação** é definida como a divisão do conjunto **V** em **component
 - Já garante uma AGM por seguir a lógica do Kruskall.
 
 
-## Estruturas de Dados
-
-- Matriz de adjacência ponderada.
-- Cada segmentação é tratada como um grafo 
