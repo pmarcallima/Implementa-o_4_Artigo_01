@@ -240,7 +240,7 @@ void saveSegmentedImage(const string &outputFilename, vector<vector<int>> &segme
 
 int main()
 {
-    string filename = "torre-eiffel.ppm"; // Nome do arquivo PPM
+    string filename = "../images/torre-eiffel.ppm"; // Nome do arquivo PPM
 
     Image *image = read_file(filename);
     if (image == nullptr)
@@ -279,7 +279,7 @@ int main()
     }
 
     // Salvar a imagem segmentada
-    saveSegmentedImage("output_segmented", segments, *image);
+    saveSegmentedImage("../images/output_segmented", segments, *image);
 
     delete image;
 
